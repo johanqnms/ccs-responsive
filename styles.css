@@ -28,6 +28,8 @@
 html {
 	font-size: 62.5%;
 	font-family: 'DM Sans', sans-serif;
+	scroll-behavior: smooth;
+
 }
 
 header {
@@ -292,7 +294,7 @@ main {
 	width: 90%;
 	min-width: 288px;
 	max-width: 400px;
-	height: 150px;
+	min-height: 150px;
 	margin: 15px auto;
 	padding: 15px;
 	background-color: var(--black);
@@ -307,7 +309,7 @@ main {
 	margin-bottom: 10px;
 	background-image: url('./assets/icons/clock.svg');
 	background-size: cover;
-	background-position:center;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 
@@ -324,4 +326,53 @@ main {
 	font-weight: 500;
 	line-height: 1.8rem;
 	color: #808080;
+}
+
+.bitcoin-img-container {
+	width: 100%;
+	min-width: 320px;
+	height: 50vh;
+	background-image: url(./assets/img/bitcoinbaby2x.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bitcoin-img-container h2 {
+	padding-top: 60px;
+	font-size: 2.4rem;
+	font-weight: bold;
+	line-height: 2.6rem;
+	color: var(--just-white);
+	text-align: center;
+}
+
+.main-plans-container {
+	width: 100%;
+	min-width: 320px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+.plans--title {
+	width: 100%;
+	min-width: 288px;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.plans--title h2{
+	padding-top: 50px;
+	font-size: 2.4rem;
+	font-weight: bold;
+	line-height: 2.6rem;
+	color: var(--black)
+}
+
+.plans--title p{
+	padding-top: 30px;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+	color: #757575;
 }

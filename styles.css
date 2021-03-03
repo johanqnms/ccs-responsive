@@ -267,7 +267,7 @@ main {
 }
 
 .product-detail--title {
-	width: 90%;
+	width: 100%;
 	min-width: 288px;
 	height: auto;
 	margin-top: 50px;
@@ -387,4 +387,43 @@ main {
 	padding: 0 15px;
 	background-color: var(--just-white);
 	border-radius: 15px;
+}
+
+.recommended {
+	position: absolute;
+	width: 120px;
+	height: 31px;
+	left: calc(50% - 60px);
+	font-size: 1.2rem;
+	padding: 6px;
+	background-color: var(--bitcoin-orage);
+	border-radius: 8px;
+	color: var(--just-white)
+}
+
+.plan-card--title {
+	padding-top: 40px;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+	color: var(--black)
+}
+
+.plan-card--price {
+	padding: 5px 0;
+	font-size: 5.2rem;
+	font-weight: bold;
+	line-height: 5.3rem;
+	color: var(--black)
+}
+
+.plan-card--price span {
+	font-size: 1.2rem;
+	font-size: 300;
+	vertical-align: 2rem;
+}
+
+.plan-card--saving {
+	font-size: 1.2rem;
+	color: #757575;
 }
